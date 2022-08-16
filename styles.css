@@ -81,17 +81,21 @@ ul li {
   background-color: rgba(128, 128, 128, 0.233);
   color: #ffffffbb;
   margin-top: 30px;
-  padding: 20px 10px 20px 20px;
+  padding: 10px 20px;
   border-radius: 20px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   line-height: 1.5rem;
 }
 
+ul li .checkbox {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 20px;
+}
+
 ul li i {
-  float: right;
-  margin-right: 20px;
+  margin: 0 20px;
   color: rgba(225, 33, 147, 1);
 }
